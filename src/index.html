@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
+
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
     <script
       src="https://kit.fontawesome.com/072e5df971.js"
@@ -16,9 +17,8 @@
       <li>
         <label>Include Cover</label>
         <select class="picker" for="includeCover">
-          <option value="">Include Cover</option>
-          <option value="true">True</option>
-          <option value="false">False</option>
+          <option value="true">with cover</option>
+          <option value="false">don´t cover</option>
         </select>
       </li>
       <li>
@@ -55,7 +55,7 @@
       <li>
         <label>Role</label>
         <select class="picker" for="role">
-          <option value="">null</option>
+          <option value="">Role</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
@@ -64,7 +64,7 @@
       <li>
         <label>City</label>
         <select class="picker" for="city">
-          <option value="">null</option>
+          <option value="">City</option>
           <option value="Miami">Miami</option>
           <option value="Munich">Munich</option>
           <option value="Caracas">Caracas</option>
@@ -72,19 +72,22 @@
         </select>
       </li>
       <li>
-        <label>Country</label>
-        <select class="picker" for="country">
-          <option value="">null</option>
-          <option value="USA">USA</option>
-          <option value="Germany">Germany</option>
-          <option value="Canada">Canada</option>
-          <option value="Venezuela">Venezuela</option>
-        </select>
+        <div class="form-group">
+          <label>Country</label>
+          <select class="picker" for="country">
+            <option value="Country">Country</option>
+            <option value="USA">USA</option>
+            <option value="Germany">Germany</option>
+            <option value="Canada">Canada</option>
+            <option value="Venezuela">Venezuela</option>
+          </select>
+        </div>
       </li>
     </ul>
     <div id="widget_content"></div>
 
     <!-- do not remove this bundle.js tag -->
     <script type="text/javascript" src="/main.bundle.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
